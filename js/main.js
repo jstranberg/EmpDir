@@ -1,4 +1,5 @@
 var app = {
+
     showAlert: function (message, title) {
         if (navigator.notification) {
             navigator.notification.alert(message, null, title, 'OK');
@@ -41,7 +42,7 @@ var app = {
 
         var currentPageDest,
             self = this;
-
+			//HELLO RANDY AGAIN
         // If there is no current page (app just started) -> No transition: Position new page in the view port
         if (!this.currentPage) {
             $(page.el).attr('class', 'page stage-center');
